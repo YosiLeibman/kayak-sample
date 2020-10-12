@@ -1,0 +1,22 @@
+section{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 25% 75%;
+}
+
+section > *{ 
+    border: 1px solid black;
+}
+
+header{
+    grid-column: 1/-1;
+}
+
+aside{
+
+}
+
+main{
+    overflow: auto;
+}

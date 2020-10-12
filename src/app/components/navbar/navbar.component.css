@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+a:hover, .active{
+    color: coral;
+    text-decoration: underline; 
+}
+
+a{
+    color: coral;
+    text-decoration: none;
+}
